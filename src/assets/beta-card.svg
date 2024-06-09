@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="551px" height="381px" viewBox="0 0 551 381" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 12 2</title>
+    <defs>
+        <radialGradient cx="77.1758805%" cy="25.7379553%" fx="77.1758805%" fy="25.7379553%" r="105.182429%" gradientTransform="translate(0.771759,0.257380),scale(0.638298,1.000000),rotate(135.087111),translate(-0.771759,-0.257380)" id="radialGradient-1">
+            <stop stop-color="#126ABE" offset="0%"></stop>
+            <stop stop-color="#084D8D" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="470" height="300" rx="20"></rect>
+        <filter x="-13.2%" y="-22.0%" width="126.4%" height="141.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.031372549   0 0 0 0 0.301960784   0 0 0 0 0.552941176  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.031372549   0 0 0 0 0.301960784   0 0 0 0 0.552941176  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-12" transform="translate(40.500000, 44.500000)" fill-rule="nonzero">
+            <g id="矩形">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <path d="M199.375,230.613163 L199.375,300 L170,300 L170,94.2234849 C170,76.0298295 175.375,61.7258523 186,51.0606063 C196.5,40.3953599 211.125,35 229.125,35 C246.5,35 259.875,39.2660986 269.875,47.5473486 C279.75,56.0795455 284.625,67.8740531 284.625,82.8053977 C284.625,93.0942236 281.375,102.755682 274.875,111.664299 C268.375,120.572917 260,126.721118 249.625,130.108902 L249.625,130.610795 C265.25,133.120265 277.375,138.766572 285.625,147.926136 C293.875,156.834754 298,168.252841 298,182.305871 C298,198.868371 292.25,212.419508 280.875,222.833807 C269.375,233.248106 254.375,238.392519 235.625,238.392519 C222.375,238.392519 210.25,235.757576 199.375,230.613163 M217.981862,144.708311 L217.981862,120.640169 C228.841842,119.261265 237.704584,115.249908 244.819744,108.480743 C251.810076,101.586223 255.305242,93.9395735 255.305242,85.1647299 C255.305242,67.8657527 246.4425,59.0909091 228.966669,59.0909091 C219.47979,59.0909091 212.114976,62.0994269 206.997055,68.2418174 C201.879133,74.384208 199.382586,82.9083416 199.382586,94.0649282 L199.382586,204.251892 C210.741875,210.895702 221.85151,214.15493 232.586663,214.15493 C243.072161,214.15493 251.310767,211.397122 257.177652,206.006861 C263.044538,200.491245 265.915567,192.71924 265.915567,182.816203 C265.915567,160.377674 249.937665,147.842183 217.981862,144.708311 Z" id="形状结合" fill="#FFFFFF" opacity="0.0960053943"></path>
+        </g>
+    </g>
+</svg>

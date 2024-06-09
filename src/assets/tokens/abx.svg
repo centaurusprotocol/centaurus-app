@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ABX 40px</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="105.864984%" gradientTransform="translate(0.500000,0.500000),scale(1.000000,0.987500),rotate(-90.000000),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="25.1629307%"></stop>
+            <stop stop-color="#767676" offset="100%"></stop>
+        </radialGradient>
+        <path d="M13.4788058,31.0904699 C10.291645,29.2610576 8.14822967,26.2082665 7.4112618,22.8858465 C7.10397599,21.5497044 8.21988265,20.2020653 9.64307512,20.1905684 L18.5668578,20.176681 C19.4082747,20.1626087 20.1581949,20.5930587 20.566645,21.3245476 L25.0164392,29.0147924 C25.780514,30.2817683 25.1020608,31.8805031 23.6859456,32.310263 C20.3344329,33.2030782 16.6659667,32.9198822 13.4788058,31.0904699 Z M30.4265109,19.8720564 L21.5027281,19.8859437 C20.6613113,19.900016 19.9113911,19.4695661 19.5029409,18.7380772 L15.0531467,11.0478324 C14.3515653,9.81672733 14.9314446,8.24425175 16.2850665,7.77862105 C19.547673,6.75193414 23.2786326,7.07100094 26.4657935,8.90041322 C29.6529543,10.7298255 31.7963696,13.7826166 32.5333375,17.1050366 C32.9920228,18.6109213 31.9121967,19.8964303 30.4265109,19.8720564 Z" id="path-2"></path>
+        <filter x="-17.8%" y="-17.6%" width="135.6%" height="135.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.10470389 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo&amp;buttom-svg" transform="translate(-494.000000, -954.000000)">
+            <g id="ABX-40px" transform="translate(494.000000, 954.000000)">
+                <g id="编组-4" fill="#007AF0">
+                    <circle id="椭圆形" cx="20" cy="20" r="20"></circle>
+                </g>
+                <g id="形状结合" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

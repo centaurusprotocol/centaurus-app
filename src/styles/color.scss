@@ -1,0 +1,62 @@
+@import "./variable";
+.color-red-text {
+  color: $color-red !important;
+}
+.color-red-bg {
+  background: $color-red !important;
+}
+.color-Fe-bg {
+  background: $color-Fe !important;
+}
+.color-blue-text {
+  color: $color-blue !important;
+}
+.color-blue-bg {
+  background: $color-blue !important;
+}
+
+.color-blue-text {
+  color: $color-blue !important;
+}
+.color-blue-text-7 {
+  color: rgba(0, 122, 240, 0.7) !important;
+}
+.color-blue-bg {
+  background: $color-blue !important;
+}
+.color-white-text {
+  color: white !important;
+}
+.color-white-bg {
+  background: white;
+}
+.color-black-text-5 {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+.color-black-bg-7 {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+.color-black-text {
+  color: black !important;
+}
+.color-black-text-7 {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+.color-black-bg {
+  background: #0d1421;
+}
+.color-grey-bg-16 {
+  background: rgba(120, 120, 128, 0.16);
+}
+.color-F9-bg {
+  background: $color-F9 !important;
+}
+.color-F0-bg {
+  background: $color-F0;
+}
+.color-32-bg {
+  background: $color-32;
+}
+.color-A1-text {
+  color: $color-A1;
+}

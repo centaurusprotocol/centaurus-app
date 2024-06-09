@@ -1,0 +1,53 @@
+.app-button {
+  /* border-radius: 10px; */
+  width: 100%;
+  height: auto;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  background-color: #007af0;
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+.app-button[button-style="loading"] {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #ececec;
+}
+
+.app-button[button-style="long"] {
+  background-color: #007af0;
+}
+
+.app-button[button-style="short"] {
+  background-color: #fa3c58;
+}
+
+.app-button[button-style="disabled"] {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #ececec;
+}
+
+.app-button .bubble {
+  position: relative;
+  bottom: 300%;
+  left: 50%;
+  height: 150px;
+  transform: translateX(-50%);
+  padding: 10px;
+  background: linear-gradient(
+    to right,
+    #efd541 0%,
+    rgb(243, 255, 106) 5px,
+    #2a2a2a 5px,
+    #2a2a2a 100%
+  );
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

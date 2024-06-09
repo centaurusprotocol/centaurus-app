@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="430px" height="40px" viewBox="0 0 430 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 13</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="430" height="40" rx="8"></rect>
+        <filter x="-15.5%" y="-166.2%" width="130.9%" height="432.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.02 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="15" cy="15" r="15"></circle>
+        <filter x="-100.0%" y="-100.0%" width="300.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.10432146 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Trade2" transform="translate(-795.000000, -30.000000)">
+            <g id="编组-13" transform="translate(795.000000, 30.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke-opacity="0.1" stroke="#000000" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="编组-33" transform="translate(7.000000, 5.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FF4B07" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <path d="M15.2971123,18.8628805 C15.5094834,18.6505094 15.819021,18.567569 16.1091253,18.6453022 C16.3992296,18.7230354 16.6258269,18.9496327 16.7035601,19.239737 C16.7812933,19.5298413 16.698353,19.8393789 16.4859819,20.05175 L15.891337,20.6459747 C14.0863901,22.4513418 11.1593924,22.4513418 9.35402534,20.6459747 C7.54865822,18.8406075 7.54865822,15.9140301 9.35402534,14.108663 L9.94824999,13.5140181 C10.1606211,13.301647 10.4701587,13.2187067 10.760263,13.2964399 C11.0503673,13.3741731 11.2769646,13.6007704 11.3546978,13.8908747 C11.432431,14.180979 11.3494906,14.4905166 11.1371195,14.7028877 L10.5424746,15.2971123 C9.79928841,16.0402985 9.50904114,17.123516 9.78106617,18.1387273 C10.0530912,19.1539385 10.8460615,19.9469088 11.8612727,20.2189338 C12.876484,20.4909589 13.9597015,20.2007116 14.7028877,19.4575254 L15.2971123,18.8628805 L15.2971123,18.8628805 Z M18.8628805,15.2971123 L19.4575254,14.7028877 C20.6063917,13.5540213 20.6063917,11.691341 19.4575254,10.5424746 C18.308659,9.3936083 16.4459787,9.3936083 15.2971123,10.5424746 L14.7028877,11.1371195 C14.4905166,11.3494906 14.180979,11.432431 13.8908747,11.3546978 C13.6007704,11.2769646 13.3741731,11.0503673 13.2964399,10.760263 C13.2187067,10.4701587 13.301647,10.1606211 13.5140181,9.94824999 L14.108663,9.35402534 C15.9136099,7.54865822 18.8406076,7.54865822 20.6459747,9.35402534 C22.4513418,11.1593925 22.4513418,14.0859699 20.6459747,15.891337 L20.05175,16.4859819 C19.8393789,16.698353 19.5298413,16.7812933 19.239737,16.7035601 C18.9496327,16.6258269 18.7230354,16.3992296 18.6453022,16.1091253 C18.567569,15.819021 18.6505094,15.5094834 18.8628805,15.2971123 L18.8628805,15.2971123 Z M10.5424746,10.5424746 C10.7001064,10.384779 10.9139393,10.2961812 11.1369094,10.2961812 C11.3598795,10.2961812 11.5737124,10.384779 11.7313442,10.5424746 L19.4575254,18.2686558 C19.7858226,18.5969531 19.7858226,19.1292281 19.4575253,19.4575253 C19.1292281,19.7858226 18.5969531,19.7858226 18.2686558,19.4575254 L10.5424746,11.7313442 C10.384779,11.5737124 10.2961812,11.3598795 10.2961812,11.1369094 C10.2961812,10.9139393 10.384779,10.7001064 10.5424746,10.5424746 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+                <text id="Due-to-the-reset-of" fill-rule="nonzero" font-family="RedHatDisplay-Medium, Red Hat Display" font-size="12" font-weight="400" line-spacing="14" fill="#000000" fill-opacity="0.495820586">
+                    <tspan x="48" y="17.5133062">Due to the reset of the Sui testnet scheduled for 11 May 2023, </tspan>
+                    <tspan x="48" y="31.5133062">the service will be temporarily unavailable.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

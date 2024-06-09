@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="370px" height="206px" viewBox="0 0 370 206" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <defs>
+        <radialGradient cx="84.7433765%" cy="50%" fx="84.7433765%" fy="50%" r="160.388923%" gradientTransform="translate(0.847434,0.500000),scale(0.556073,1.000000),rotate(161.835743),translate(-0.847434,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#F0F0F0" offset="0%"></stop>
+            <stop stop-color="#C2C4CD" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="-2.89743889e-07%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#313131" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.89743889e-07%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#084C8A" offset="0%"></stop>
+            <stop stop-color="#1572CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.9248547%" y1="21.7276439%" x2="100%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#084C8A" offset="0%"></stop>
+            <stop stop-color="#1572CB" offset="100%"></stop>
+        </linearGradient>
+        <path d="M161.704504,135.36746 C151.490804,135.36746 143.210965,127.034805 143.210965,116.755954 C143.210965,106.477102 151.490804,98.144447 161.704504,98.144447 L207.938353,98.144447 C213.045203,98.144447 217.185123,93.9781193 217.185123,88.8386937 C217.185123,83.6992681 213.045203,79.5329404 207.938353,79.5329404 L157.081119,79.5329404 L157.081119,88.8386937 C157.068127,89.7694439 156.505105,90.602805 155.649831,90.9572229 C154.794558,91.3116408 153.811693,91.1188818 153.151242,90.4672005 L139.281087,76.5085705 C138.394399,75.5881679 138.394399,74.1254308 139.281087,73.2050281 L153.151242,59.2463981 C153.817712,58.5889281 154.811643,58.399253 155.671011,58.7655425 C156.53038,59.1318319 157.086601,59.9822302 157.081119,60.9214337 L157.081119,70.227187 L207.938353,70.227187 C218.152053,70.2271872 226.431892,78.5598425 226.431892,88.8386937 C226.431892,99.1175449 218.152053,107.4502 207.938353,107.4502 L161.704504,107.4502 C156.597654,107.4502 152.457734,111.616528 152.457734,116.755954 C152.457734,121.895379 156.597654,126.061707 161.704504,126.061707 L212.561738,126.061707 L212.561738,116.755954 C212.556256,115.81675 213.112477,114.966352 213.971846,114.600062 C214.831214,114.233773 215.825145,114.423448 216.491615,115.080918 L230.36177,129.039548 C231.248458,129.959951 231.248458,131.422688 230.36177,132.343091 L216.491615,146.301721 C215.831164,146.953402 214.848299,147.146161 213.993026,146.791743 C213.137752,146.437325 212.57473,145.603964 212.561738,144.673214 L212.561738,135.36746 L161.704504,135.36746 Z" id="path-5"></path>
+        <filter x="-16.2%" y="-17.0%" width="132.5%" height="133.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(0.000000, 0.013052)" fill-rule="nonzero">
+            <rect id="形状结合" fill="url(#radialGradient-1)" x="0" y="0" width="369.642857" height="205.548304"></rect>
+            <ellipse id="椭圆形" fill="url(#linearGradient-2)" cx="72.9017857" cy="102.774152" rx="61.6071429" ry="61.6644913"></ellipse>
+            <ellipse id="椭圆形" fill="url(#linearGradient-3)" cx="296.741071" cy="102.774152" rx="61.6071429" ry="61.6644913"></ellipse>
+            <g id="路径">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

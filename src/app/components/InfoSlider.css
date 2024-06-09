@@ -1,0 +1,37 @@
+.info-slider-container {
+  width: 100%;
+  margin: 10px;
+}
+
+.slick-slider {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #2a2a2a;
+}
+
+.slick-slide {
+  text-align: left; /* Align text to the left */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+.slide-content {
+  display: flex; /* Enables flex layout */
+  align-items: center; /* Vertically aligns elements */
+  justify-content: start; /* Aligns children elements to the start */
+  gap: 20px; /* Spacing between image and text */
+}
+
+.slide-image {
+  width: 150px; /* Adjust image width as needed */
+}
+
+.slide-text {
+  padding: 10px;
+  line-height: 15px;
+  font-size: 8px;
+  max-width: 500px; /* Maximum text width */
+}
+
+/* Rest of the CSS */

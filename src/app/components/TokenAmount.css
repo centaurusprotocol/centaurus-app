@@ -1,0 +1,26 @@
+.app-token-amount {
+  width: 100px;
+  height: 60px;
+  /* padding: 10px; */
+}
+
+.app-token-amount-amount {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.app-token-amount-symbol {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}

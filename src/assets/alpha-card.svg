@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="551px" height="381px" viewBox="0 0 551 381" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 12</title>
+    <defs>
+        <radialGradient cx="77.1758805%" cy="25.7379553%" fx="77.1758805%" fy="25.7379553%" r="85.6009838%" gradientTransform="translate(0.771759,0.257380),scale(0.638298,1.000000),rotate(119.826295),translate(-0.771759,-0.257380)" id="radialGradient-1">
+            <stop stop-color="#F0F0F0" offset="0%"></stop>
+            <stop stop-color="#C2C4CD" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="470" height="300" rx="20"></rect>
+        <filter x="-13.2%" y="-22.0%" width="126.4%" height="141.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.103010271 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-12" transform="translate(40.500000, 44.500000)" fill-rule="nonzero">
+            <g id="矩形">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <path d="M317.05817,238.756047 C296.762603,238.756047 283.063096,224.076156 276.128777,194.549555 L275.283129,194.549555 C258.539286,226.411593 235.030255,242.259203 205.432554,242.259203 C183.276561,242.259203 165.51794,234.085173 152.156692,217.570294 C138.795444,201.055416 132.199385,180.370114 132.199385,155.347571 C132.199385,126.154605 139.810222,102.800231 154.862767,84.6171835 C169.915312,66.4341356 190.380009,57.2592034 216.256856,57.2592034 C230.125493,57.2592034 242.641093,61.0959932 253.465395,68.6027561 C264.289697,76.276336 272.577053,86.9526207 278.327464,100.798428 L279.003982,100.798428 L291.012193,60.7623594 L334.309401,60.7623594 L298.115641,149.508978 C302.174754,170.19428 306.402998,184.373721 311.13863,191.880484 C315.197743,199.387247 320.948153,203.224037 328.051602,203.224037 C332.110715,203.224037 335.32418,202.556769 338.199385,201.38905 L337.861125,235.419709 C330.081158,237.588329 323.14684,238.756047 317.05817,238.756047 Z M266.199385,148.006789 C262.646753,129.147479 256.894874,114.460583 249.112919,104.446789 C241.500137,94.2660996 232.195625,89.2592034 221.537731,89.2592034 C207.66555,89.2592034 196.500137,95.434376 188.210663,107.617824 C179.921189,119.968169 176.199385,135.155755 176.199385,153.013686 C176.199385,169.369548 179.413671,182.888169 186.688107,193.903341 C193.79337,204.918514 203.436227,210.259203 215.447505,210.259203 C225.597881,210.259203 234.902393,205.419204 243.191866,196.239893 C251.650513,186.72679 258.586603,172.874376 264.16931,154.682652 L266.199385,148.006789 L266.199385,148.006789 Z" id="形状" fill="#000000" opacity="0.102446057"></path>
+        </g>
+    </g>
+</svg>

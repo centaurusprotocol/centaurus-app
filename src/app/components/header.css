@@ -1,0 +1,220 @@
+.app-header {
+  margin-top: 30px;
+  position: relative;
+}
+.app-header > div:first-child > img {
+  margin-right: 40px;
+}
+
+.app-header > div:first-child > img:first-child {
+  margin-right: 10px !important;
+}
+
+.app-header > div:first-child > img:nth-child(2) {
+  margin: 0 40px -4px 0;
+}
+
+.app-header nav a {
+  display: block;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 20px;
+}
+
+.app-header nav {
+  height: 44px;
+}
+
+.app-header-page-selected {
+  background: #007af0;
+}
+
+.wkit-button {
+  width: auto !important;
+  height: auto !important;
+  background: #323546 !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  line-height: 30px !important;
+  padding: 5px 16px !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+:root {
+  --wkit-button-width: auto !important;
+  --wkit-border-radius: 0 !important;
+  --wkit-font-family: Aldrich, PingFangSC-Regular, Roboto, Helvetica Neue,
+    Helvetica, Tahoma, Arial, PingFang SC-Light, Microsoft YaHei !important;
+  --wkit-font-family-mono: Aldrich, PingFangSC-Regular, Roboto, Helvetica Neue,
+    Helvetica, Tahoma, Arial, PingFang SC-Light, Microsoft YaHei !important;
+}
+
+.wkit-connected-button {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  width: auto !important;
+  height: auto !important;
+  color: #fff !important;
+  background: #323546 !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
+  padding: 5px 16px !important;
+  border-radius: 0 !important;
+}
+
+.wkit-connected-button__balance {
+  display: none;
+}
+
+.wkit-connected-button__divider {
+  display: none;
+}
+
+.wkit-address-select__address {
+  color: #fff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  line-height: 30px !important;
+  font-family:
+    Aldrich,
+    PingFangSC-Regular,
+    Roboto,
+    Helvetica Neue,
+    Helvetica,
+    Tahoma,
+    Arial,
+    PingFang SC-Light,
+    Microsoft YaHei !important;
+}
+
+.wkit-address-select__right-arrow {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  border-radius: 0 !important;
+  margin-left: 15px !important;
+}
+
+.wkit-disconnect-button {
+  font-size: 12px !important;
+  color: #fff !important;
+  background-color: #323546 !important;
+}
+
+.app-header-notification {
+  opacity: 1;
+}
+
+.rpc-set {
+  position: relative;
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.rpc-set-container {
+  position: absolute;
+  right: 0;
+  top: 58px;
+  padding: 24px;
+  width: 360px;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  cursor: default;
+  z-index: 100;
+}
+
+.current-rpc-node {
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f9f9f9;
+}
+
+.rpc-node-text {
+  padding-bottom: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.current-rpc-node-info {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.rpc-node-auto {
+  width: 56px;
+  text-align: center;
+  padding: 2px 4px;
+  color: #fff;
+  background-color: #000;
+}
+
+.custom-rpc-node {
+  padding: 8px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f9f9f9;
+}
+
+.custom-rpc-node span {
+  font-weight: 700;
+}
+
+.rpc-speed .status {
+  display: inline-block;
+  margin-left: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.rpc-speed .green {
+  background-color: #007af0;
+}
+
+.rpc-speed .orange {
+  background-color: #feaa28;
+}
+
+.rpc-speed .red {
+  background-color: #fa3c58;
+}
+
+.rpc-node-list-container {
+  margin-top: 24px;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f9f9f9;
+  max-height: calc(100vh - 500px);
+  overflow-y: auto;
+}
+
+.rpc-node-list-title {
+  padding-bottom: 8px;
+}
+
+.rpc-node-list-item {
+  margin-top: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}

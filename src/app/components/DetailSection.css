@@ -1,0 +1,29 @@
+.detail-section-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.detail-section-content {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 25px;
+}
+
+.detail-section-content-active {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f8e61d;
+  line-height: 25px;
+}
+
+.funding.detail-section {
+  cursor: pointer;
+}
+.funding .detail-section-content,
+.pool-apr .detail-section-content {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.4);
+}

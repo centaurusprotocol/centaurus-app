@@ -1,0 +1,29 @@
+/* AfterHourWarning.css */
+
+.afterHourWarning {
+  background: linear-gradient(
+    to right,
+    #efd541 0%,
+    rgb(243, 255, 106) 5px,
+    #2a2a2a 5px,
+    #2a2a2a 100%
+  );
+  color: #fff;
+  padding: 16px;
+  padding-left: 20px; /* Adjusted padding to align with the gradient */
+  border-radius: 8px;
+  margin: 16px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.afterHourWarning strong {
+  font-size: 12px;
+  /* If you want the title to be on its own line with full width */
+  display: block; /* Makes the element take up the full width */
+}
+
+.afterHourWarning p {
+  margin-top: 10px;
+  font-size: 12px;
+  word-wrap: break-word; /* Ensures that the text wraps within the container */
+}

@@ -1,0 +1,10 @@
+.heroswap {
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+  border-width: 0px;
+  padding-top: 50px;
+  margin: auto auto;
+  min-width: 320px;
+  color-scheme: auto;
+}

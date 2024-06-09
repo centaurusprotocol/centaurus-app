@@ -1,0 +1,86 @@
+.app-token-input {
+  border: 1px solid #323546;
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.02);
+  background-color: #0d1421;
+  padding: 13px 10px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.app-token-input:first-child {
+  margin-top: 16px;
+}
+.app-token-input > div:first-child {
+  margin-bottom: 16px;
+}
+
+.app-token-input-usd {
+  color: #a1a7bb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.app-token-input-input {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border: 0;
+  background: inherit;
+  flex: 1;
+  overflow: scroll;
+}
+.app-token-input-input::placeholder {
+  color: #fff;
+}
+.app-token-input-input:focus {
+  outline: none;
+}
+
+.app-token-input-token-text {
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.app-token-input-balance {
+  color: #a1a7bb;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+  line-height: 15px;
+}
+
+.app-token-input-leverage {
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.02);
+  background-color: rgba(246, 246, 246, 1);
+  width: 100px;
+  height: 20px;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.app-token-input-max {
+  border: 2px solid rgba(0, 122, 240, 0.5);
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.02);
+  color: #007af0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 10;
+  margin-right: 10px;
+}
+
+.app-token-input-content {
+  width: 100%;
+}
+
+.mb-8-important {
+  margin-bottom: 8px !important;
+}

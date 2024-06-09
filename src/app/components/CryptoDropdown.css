@@ -1,0 +1,106 @@
+.app-crypto-dropdown-dropdown {
+  position: relative;
+  display: inline-block;
+  user-select: none;
+}
+
+.app-crypto-dropdown-header {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.app-crypto-dropdown-header-active {
+  transform: rotate(180deg);
+}
+
+.app-crypto-dropdown-header > div {
+  margin-left: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+.app-crypto-dropdown-list {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: 90;
+  width: max-content;
+  min-width: 300px;
+  background: #323546;
+  box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: auto;
+  max-width: 80vw;
+}
+
+.app-crypto-dropdown-title {
+  padding: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.app-crypto-dropdown-item {
+  align-items: center;
+  background: transparent;
+  padding: 12px 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.app-crypto-dropdown-item:hover {
+  background-color: rgba(13, 20, 33, 0.3);
+}
+
+.app-crypto-dropdown-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.app-crypto-dropdown-symbol {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 25px;
+}
+
+.app-crypto-dropdown-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: #f0f0f0;
+  line-height: 15px;
+}
+.search {
+  width: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  background: #0d1421;
+}
+.search-img {
+  width: 15px;
+  height: 15px;
+}
+.search-input {
+  color: #fff;
+  width: 85%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+}
+.search-input::placeholder {
+  color: #a1a7bb;
+}
+
+@media screen and (max-width: 640px) {
+  .search-input::placeholder {
+    font-size: 12px !important;
+  }
+  .search-input {
+    font-size: 12px !important;
+  }
+}

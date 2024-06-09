@@ -1,0 +1,75 @@
+.app-pair-dropdown {
+  position: relative;
+  display: inline-block;
+  user-select: none;
+}
+
+.app-pair-dropdown_header {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.app-pair-dropdown_header > div {
+  margin-left: 15px;
+  height: 30px;
+  width: 30px;
+}
+.app-pair-dropdown_header-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 18px;
+}
+.app-pair-dropdown_list {
+  position: absolute;
+  top: 50px;
+  left: -20px;
+  z-index: 1;
+  width: 290px;
+  background: #323546;
+  box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  overflow-y: auto;
+  transition: all 2s linear;
+}
+
+.app-pair-dropdown_item {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  padding: 12px 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.app-pair-dropdown_item:hover {
+  background-color: rgba(13, 20, 33, 0.3);
+}
+
+.app-pair-dropdown_crypto-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 0px;
+}
+
+.app-pair-dropdown_pair-symbol {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 25px;
+}
+.app-pair-dropdown_item-icon {
+  position: relative;
+}
+.app-pair-dropdown_item-img {
+  position: absolute;
+  left: 16px;
+}
+.app-pair-dropdown_header-img {
+  position: absolute;
+  left: 28px;
+}

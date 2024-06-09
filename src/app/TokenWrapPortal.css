@@ -1,0 +1,259 @@
+.app-mint-overview {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.app-mint-overview-card {
+  width: 100%;
+  margin-top: 40px;
+  padding: 23px 30px;
+}
+
+.app-mint-overview-card.active {
+  width: 100%;
+  margin-top: 40px;
+  padding: 23px 30px;
+  border: 5px solid;
+  border-image: linear-gradient(45deg, gold, deeppink) 1;
+  clip-path: inset(0px round 10px);
+  animation: huerotate 6s infinite linear;
+  filter: hue-rotate(360deg);
+}
+
+@keyframes huerotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.app-mint-overview-card-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.app-mint-overview-card-title-centered {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.app-mint-overview-card-title > img {
+  margin-right: 12px;
+}
+
+.app-mint-overview-content > div:first-child {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.app-mint-overview-content > div:last-child {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.app-mint-overview-more {
+  position: relative;
+  height: 100%;
+  opacity: 0;
+}
+
+.app-mint-overview-more > img {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  margin: -20px;
+  z-index: 100;
+  transform: rotate(90deg);
+}
+
+.app-mint-overview-more > div {
+  position: absolute;
+  bottom: -40px;
+  right: 15px;
+  width: 1px;
+  height: 120px;
+  background: RGBA(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+.app-mint-hint {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.app-mint-hint > a {
+  color: RGB(0, 122, 240);
+  text-decoration: underline;
+}
+
+.app-scard-container {
+  min-height: 438px;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.app-scard-button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  .app-scard-button-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.app-mint-trade {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  margin-bottom: 24px;
+  gap: 24px;
+}
+
+.app-mint-trade > div:nth-child(2) {
+  height: 100%;
+  width: 60%;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.03);
+}
+
+.app-mint-trade > div:nth-child(3) {
+  height: 100%;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.03);
+}
+
+.app-mint-trade-desc > h2 {
+  color: rgba(0, 122, 240, 1);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 40px;
+}
+
+.app-mint-trade-desc > p {
+  width: 360px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.app-mint-trade-action {
+  padding: 20px;
+}
+
+.app-mint-trade-swap {
+  width: 360px;
+}
+
+.app-mint-mint-limit {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.app-mint-open-countdown {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.app-mint-action-tab {
+  background: #323546;
+  padding: 2px;
+  box-shadow: 0px 0px 44px 0px rgba(0, 0, 0, 0.02);
+}
+
+.app-mint-action-tab-item {
+  font-size: 14px;
+  font-weight: 700;
+  color: #a1a7bb;
+  line-height: 16px;
+  padding: 17px 25px;
+  cursor: pointer;
+  /* border-radius: 10px; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-mint-action-tab-item-active {
+  color: #ffffff !important;
+}
+
+.app-mint-action-input-title {
+  margin: 20px 0 10px 0;
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.app-mint-action-hint {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 4px 10px;
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.02);
+  background-color: #323546;
+  /* margin-top: 10px; */
+}
+
+.app-mint-action-hint > div:last-child {
+  cursor: pointer;
+}
+
+.app-mint-action-button {
+  height: 60px;
+  margin-top: 24px;
+}
+
+.app-mint-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.app-mint-footer {
+  width: 100%;
+}
+
+.app-scard-button {
+  width: auto !important;
+  cursor: pointer;
+  background: black;
+  border: 1px solid black;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background: black;
+    border: 1px solid #007af0;
+    box-shadow: #007af0 0px 0px 5px;
+    transition: all 0.5s ease-in;
+  }
+}

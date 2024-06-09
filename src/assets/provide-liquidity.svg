@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="370px" height="206px" viewBox="0 0 370 206" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 31</title>
+    <defs>
+        <radialGradient cx="84.7433765%" cy="50%" fx="84.7433765%" fy="50%" r="160.388923%" gradientTransform="translate(0.847434,0.500000),scale(0.556073,1.000000),rotate(161.835743),translate(-0.847434,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#F0F0F0" offset="0%"></stop>
+            <stop stop-color="#C2C4CD" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="-2.89743889e-07%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#084C8A" offset="0%"></stop>
+            <stop stop-color="#1572CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.89743889e-07%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#313131" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-4" cx="184.821429" cy="135.606398" rx="51.3392857" ry="51.3870761"></ellipse>
+        <filter x="-7.3%" y="-7.3%" width="114.6%" height="114.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="-2.89743889e-07%" y1="50%" x2="100%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#084C8A" offset="0%"></stop>
+            <stop stop-color="#1572CB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.89743889e-07%" y1="50%" x2="100%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#313131" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-8" cx="195.197368" cy="24.8793804" rx="17.4553571" ry="17.4716059"></ellipse>
+        <filter x="-21.5%" y="-21.5%" width="143.0%" height="142.9%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-31" transform="translate(0.357143, 0.013052)" fill-rule="nonzero">
+            <rect id="形状结合" fill="url(#radialGradient-1)" x="0" y="0" width="369.642857" height="205.548304"></rect>
+            <path d="M9.09494702e-13,121.488234 C15.8073769,111.532032 42.8402961,106.553932 81.0987574,106.553932 C138.486449,106.553932 214.82554,136.296436 281.865395,136.296436 C326.558632,136.296436 355.817786,131.360369 369.642857,121.488234 L369.642857,205.217118 L9.09494702e-13,205.217118 L9.09494702e-13,121.488234 Z" id="路径-2" fill="url(#linearGradient-2)"></path>
+            <g id="椭圆形">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+            </g>
+            <path d="M0,121.488234 C15.8073769,111.532032 42.8402961,106.553932 81.0987574,106.553932 C138.486449,106.553932 214.82554,136.296436 281.865395,136.296436 C326.558632,136.296436 355.817786,131.360369 369.642857,121.488234 L369.642857,205.217118 L0,205.217118 L0,121.488234 Z" id="路径-2" fill="url(#linearGradient-2)" transform="translate(184.821429, 155.885525) scale(-1, 1) translate(-184.821429, -155.885525) "></path>
+            <ellipse id="椭圆形" fill="url(#linearGradient-6)" cx="146.830357" cy="55.4980422" rx="30.8035714" ry="30.8322457"></ellipse>
+            <g id="椭圆形">
+                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                <use fill="url(#linearGradient-7)" xlink:href="#path-8"></use>
+            </g>
+        </g>
+    </g>
+</svg>

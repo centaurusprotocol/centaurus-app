@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>switch</title>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+        <filter x="-75.0%" y="-75.0%" width="250.0%" height="250.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.10432146 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="List-&amp;-pop-up-&amp;-button" transform="translate(-410.000000, -1395.000000)">
+            <g id="switch" transform="translate(430.000000, 1415.000000)">
+                <g id="Oval" transform="translate(20.000000, 20.000000) rotate(90.000000) translate(-20.000000, -20.000000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <circle stroke-opacity="0.2" stroke="#007AF0" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="20" cy="20" r="19.5"></circle>
+                </g>
+                <path d="M22.5955926,20 C22.7263782,20 22.853953,20.0402819 22.9607764,20.1153114 L29.732197,24.8715378 C30.0177119,25.0721151 30.0856575,25.4648142 29.8839671,25.7487145 C29.8451158,25.8034027 29.797737,25.8515759 29.7436176,25.8914172 L22.9722245,30.8764057 C22.6912504,31.0832493 22.294887,31.0244443 22.0868947,30.7450864 C22.0061995,30.6367112 21.9626437,30.5054303 21.9626441,30.3705843 L21.9626441,27.1637011 L16.4268215,27.1637011 C12.481626,27.1860026 10.339343,25.2472987 10,21.3476166 C10.3428104,21.7045238 11.8411096,23.8103663 16.4268215,23.8103663 C19.4839627,23.8103663 21.3292553,23.7754227 21.9626441,23.7056174 L21.9626441,20.6293694 C21.9626441,20.2817659 22.2460124,20 22.5955926,20 Z M17.9131053,10.2549142 C17.9938005,10.3632623 18.0373563,10.4945436 18.0373559,10.6293899 L18.0373559,13.8362811 L23.5731785,13.8362811 C27.518374,13.8139795 29.660657,15.7526883 30,19.65238 C29.6571896,19.295472 28.1588904,17.1896242 23.5731785,17.1896242 C20.5160373,17.1896242 18.6707447,17.224568 18.0373559,17.2943734 L18.0373559,20.3706291 C18.0373559,20.7182334 17.7539876,21 17.4044074,21 C17.2736218,21 17.146047,20.959718 17.0392236,20.8846883 L10.267803,16.1284501 C9.98228814,15.9278723 9.91434249,15.5351722 10.1160329,15.2512712 C10.1548842,15.1965829 10.202263,15.1484095 10.2563824,15.1085681 L17.0277755,10.1235946 C17.3087496,9.9167505 17.705113,9.97555563 17.9131053,10.2549142 Z" id="形状结合" fill="#007AF0" fill-rule="nonzero" transform="translate(20.000000, 20.500000) rotate(90.000000) translate(-20.000000, -20.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

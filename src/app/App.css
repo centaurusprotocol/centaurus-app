@@ -1,0 +1,154 @@
+.app-container {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/background/centaurus-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* min-height: calc(100vh - 136px); */
+  min-height: 100vh;
+
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.loader-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/background/centaurus-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.modal-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: black;
+  border: 1px solid #007af0;
+  transition: all 0.5s ease-in;
+}
+
+.app-tab-button {
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  background: #323546;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  line-height: 30px;
+  color: #fff;
+  border: 1px solid black;
+  padding: 10px 20px;
+
+  &:hover {
+    background: black;
+    border: 1px solid #007af0;
+    box-shadow: #007af0 0px 0px 5px;
+    transition: all 0.5s ease-in;
+  }
+}
+
+.app-dropdown-button {
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  background: #323546 !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
+  line-height: 30px !important;
+  color: #fff !important;
+  border: 1px solid black;
+  padding: 10px 20px;
+
+  &:hover {
+    background: black;
+    border: 1px solid #007af0;
+    box-shadow: #007af0 0px 0px 5px;
+    transition: all 0.5s ease-in;
+  }
+}
+
+.app-loader-button {
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  border: 1px solid black;
+
+  &:hover {
+    background: black;
+    border: 1px solid #007af0;
+    box-shadow: #007af0 0px 0px 5px;
+    transition: all 0.5s ease-in;
+  }
+}
+
+.loader-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-info-container {
+  background: grey;
+  text-align: center;
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 14px;
+  color: white;
+}
+
+.scard-container {
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  background: black !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
+  color: #fff !important;
+  border: 1px solid black;
+  padding: 10px 20px;
+
+  &:hover {
+    background: black;
+    border: 1px solid #007af0;
+    box-shadow: #007af0 0px 0px 5px;
+    transition: all 0.5s ease-in;
+  }
+}
+
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.popout {
+  animation: popout 1.5s ease;
+  -webkit-animation: popout 1.5s ease;
+}
+@keyframes popout {
+  from {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes popout {
+  from {
+    -webkit-transform: scale(0);
+  }
+  80% {
+    -webkit-transform: scale(1.05);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}

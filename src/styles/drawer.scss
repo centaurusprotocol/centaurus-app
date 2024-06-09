@@ -1,0 +1,36 @@
+.drawer {
+  position: absolute;
+  z-index: 999;
+  top: 44px;
+  right: 0;
+  width: 100%;
+  background: #fff;
+  height: calc(100vh - 44px);
+  animation: modelIn 0.2s linear;
+  padding-top: 24px;
+  overflow-y: auto;
+}
+.drawer-text {
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  a {
+    width: 100%;
+    margin-bottom: 16px;
+    span {
+      padding: 8px;
+      width: 100%;
+      display: flex;
+      justify-content: end;
+    }
+  }
+  a:last-child {
+    margin-bottom: 0;
+  }
+}
+.drawer-link {
+  padding-top: 24px;
+  a {
+    margin: 0 0 16px 0;
+  }
+}

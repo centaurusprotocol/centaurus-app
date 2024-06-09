@@ -1,0 +1,47 @@
+:root {
+  --wkit-font-size-large: 16px;
+  --wkit-font-size-medium: 14px;
+  --wkit-font-size-small: 14px;
+  --wkit-line-height-large: 22px;
+  --wkit-line-height-medium: 20px;
+  --wkit-line-height-small: 17px;
+}
+
+.wkit-dialog__overlay .wkit-dialog__content {
+  background: #323546;
+  border-radius: 0;
+  width: 430px;
+}
+
+.wkit-new-to-sui {
+  color: #fff;
+  background: #323546;
+}
+
+.wkit-new-to-sui .wkit-new-to-sui__text,
+.wkit-dialog__content .wkit-dialog__title,
+.wkit-dialog__content .wkit-select__title,
+.wkit-dialog__content .wkit-select-item,
+.wkit-dialog__content .wkit-connecting__title,
+.wkit-dialog__content .wkit-connecting__description,
+.wkit-dialog__content .wkit-select-item:hover,
+.wkit-dialog__close svg {
+  color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .wkit-dialog__overlay .wkit-dialog__content {
+    width: 320px;
+  }
+  .wkit-button {
+    font-size: 14px !important;
+  }
+
+  .wkit-address-select__address {
+    font-size: 14px !important;
+  }
+
+  .wkit-disconnect-button {
+    font-size: 14px !important;
+  }
+}

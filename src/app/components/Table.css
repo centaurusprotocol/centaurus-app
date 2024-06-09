@@ -1,0 +1,53 @@
+.app-table {
+  display: grid;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  align-items: center;
+  justify-items: start;
+  padding: 0 0 20px 0;
+  color: #fff;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.app-table::-webkit-scrollbar {
+  display: none;
+}
+
+.app-table.app-trade-table {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.app-table-row {
+  display: contents;
+}
+
+.app-table-row-header {
+  font-size: 14px;
+  background-color: inherit !important;
+}
+
+.app-table-cell {
+  padding: 15px 0;
+  height: 60px;
+  width: max-content;
+  box-sizing: content-box;
+}
+
+.app-table-header-cell {
+  padding: 10px 5px;
+  max-width: 100px;
+}
+
+.app-trade-history-table .app-table-row .app-table-header-cell:nth-child(3),
+.app-trade-history-table .app-table-row .app-table-cell:nth-child(3) {
+  padding-left: 16px;
+}
+
+.app-trade-history-table .app-table-row .app-table-header-cell {
+  max-width: 200px;
+}

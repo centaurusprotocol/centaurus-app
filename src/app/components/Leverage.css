@@ -1,0 +1,48 @@
+.app-leverage {
+  width: 100%;
+}
+.leverage-header {
+  background: #323546;
+  padding: 4px 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+.app-leverage > div {
+  width: 100%;
+}
+
+.app-leverage-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.app-leverage-input {
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.02);
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  background: #323546;
+  width: 80px;
+  height: 24px;
+  text-align: center;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+}
+.app-leverage-input > input {
+  border: none;
+  outline: none;
+  max-width: 60px;
+  text-align: right;
+  background: transparent;
+}
+.app-leverage-num {
+  margin-top: 10px;
+}
+
+.app-leverage-num > div {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 20px;
+}

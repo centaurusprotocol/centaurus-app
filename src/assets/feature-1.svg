@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="76px" viewBox="0 0 93 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 13</title>
+    <defs>
+        <radialGradient cx="77.1758805%" cy="25.7379553%" fx="77.1758805%" fy="25.7379553%" r="79.0943368%" gradientTransform="translate(0.771759,0.257380),scale(0.998289,1.000000),rotate(110.131578),translate(-0.771759,-0.257380)" id="radialGradient-1">
+            <stop stop-color="#F0F0F0" offset="0%"></stop>
+            <stop stop-color="#C2C4CD" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="-2.89743889e-07%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#084C8A" offset="0%"></stop>
+            <stop stop-color="#1572CB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-787.000000, -3772.000000)" fill-rule="nonzero">
+            <g id="编组-13" transform="translate(787.500000, 3772.000000)">
+                <rect id="矩形" fill="url(#radialGradient-1)" x="0" y="0" width="75.5011136" height="75.3719008" rx="12.5795053"></rect>
+                <path d="M44.442701,43.1104433 L44.442701,15.7024793 L75.9014983,15.7024793 L75.9014983,43.1104433 L89.2906039,43.1104433 C89.8428886,43.1104433 90.2906039,43.5581585 90.2906039,44.1104433 C90.2906039,44.3679647 90.1912566,44.615559 90.0132543,44.801657 L62.3400508,73.7334495 C61.1948104,74.9307758 59.2957849,74.9729999 58.0984585,73.8277595 C58.0663268,73.7970256 58.0348823,73.7655812 58.0041484,73.7334495 L30.3309449,44.801657 C29.9491981,44.4025482 29.9632728,43.7695397 30.3623816,43.3877929 C30.5484796,43.2097905 30.7960739,43.1104433 31.0535953,43.1104433 L44.442701,43.1104433 L44.442701,43.1104433 Z" id="路径" fill="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="108px" viewBox="0 0 103 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 4</title>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="2.12503626e-13%" id="linearGradient-1">
+            <stop stop-color="#1572CB" offset="0%"></stop>
+            <stop stop-color="#084C8A" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="80.970019%" gradientTransform="translate(0.500000,0.500000),scale(0.785079,1.000000),rotate(38.134712),translate(-0.500000,-0.500000)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#C2C4CD" offset="100%"></stop>
+        </radialGradient>
+        <path d="M13.9676113,50 C13.9676113,39.6761134 18.4210526,30.1619433 25.5060729,23.6842105 C28.340081,21.0526316 33.1983806,21.8623482 35.2226721,25.3036437 L47.7732794,46.9635628 C48.9878543,48.9878543 48.9878543,51.417004 47.7732794,53.4412955 L35.2226721,75.1012146 C33.1983806,78.7449393 28.340081,79.3522267 25.3036437,76.5182186 C18.4210526,69.6356275 13.9676113,60.3238866 13.9676113,50 Z M64.7773279,74.6963563 L52.2267206,53.0364372 C51.0121457,51.0121457 51.0121457,48.582996 52.2267206,46.5587045 L64.7773279,24.8987854 C66.8016194,21.4574899 71.4574899,20.6477733 74.4939271,23.2793522 C81.5789474,29.757085 86.0323887,39.2712551 86.0323887,49.5951417 C86.0323887,59.9190283 81.5789474,69.4331984 74.4939271,75.9109312 C71.4574899,79.1497976 66.8016194,78.340081 64.7773279,74.6963563 Z" id="path-3"></path>
+        <filter x="-14.6%" y="-18.6%" width="126.4%" height="133.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pop-up" transform="translate(-482.000000, -226.000000)" fill-rule="nonzero">
+            <g id="编组-4" transform="translate(485.000000, 230.000000)">
+                <path d="M50,0 C22.4696356,0 0,22.4696356 0,50 C0,77.5303644 22.4696356,100 50,100 C77.5303644,100 100,77.5303644 100,50 C100,22.4696356 77.5303644,0 50,0 Z" id="形状" fill="url(#linearGradient-1)"></path>
+                <g id="形状结合" opacity="0.916015625" transform="translate(50.000000, 50.009711) rotate(-60.000000) translate(-50.000000, -50.009711) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
