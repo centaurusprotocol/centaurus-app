@@ -18,7 +18,7 @@ const TokenWrapPortal: React.FC = (props) => {
 
   const [invalid, setInvalid] = useState("");
   const [isSubmitLoading, setIsSubmitLoading] = useState(false);
-  const [mode, setMode] = useState<"buy" | "sell">("sell");
+  const [mode, setMode] = useState<"buy" | "sell">("buy");
   const [amount, setAmount] = useState<number | null>(null);
   const [secondAmount, setSecondamount] = useState<number | null>(null);
 
@@ -26,6 +26,9 @@ const TokenWrapPortal: React.FC = (props) => {
 
   const [token, setToken] = useState<Token>(
     TOKENS.filter((x) => x.symbol === "usdt")[0]
+  );
+  const [secondToken, setSecondToken] = useState<Token>(
+    TOKENS.filter((x) => x.symbol === "ctUsdt")[0]
   );
   const isBlocked = useGeoBlocking();
 
@@ -42,6 +45,14 @@ const TokenWrapPortal: React.FC = (props) => {
     setInvalid("");
   }, [isBlocked, priceLoading, accountData.address]);
 
+  useEffect(() => {
+    if (token.symbol === "usdt") {
+      setSecondToken(TOKENS.filter((x) => x.symbol === "ctUsdt")[0]);
+    } else if (token.symbol === "ctUsdt") {
+      setSecondToken(TOKENS.filter((x) => x.symbol === "usdt")[0]);
+    }
+  }, [token, setSecondToken]);
+
   const clearStates = () => {};
 
   const wrapToken = () => {
@@ -51,9 +62,6 @@ const TokenWrapPortal: React.FC = (props) => {
     }
     setIsSubmitLoading(true);
 
-    console.log(token.symbol);
-
-    console.log(consts.coins);
     executeApiCall(
       async (api) => {
         const coins = await getCoins(
@@ -64,10 +72,9 @@ const TokenWrapPortal: React.FC = (props) => {
 
         const coinObjects = coins.map((e) => e.objectId);
 
-        console.log("checking deposit amount: ", amount);
         return api.wrapToken(
           token.symbol,
-          "ctUsdt",
+          secondToken.symbol,
           coinObjects,
           (amount || 0) * 10 ** consts.coins[token.symbol].decimals
         );
@@ -101,13 +108,13 @@ const TokenWrapPortal: React.FC = (props) => {
       async (api) => {
         const coins = await getCoins(
           accountData.address,
-          consts.coins["ct_usdt"].module,
+          consts.coins[token.symbol].module,
           suiClient
         );
         const coinObjects = coins.map((e) => e.objectId);
         return api.unwrapToken(
+          secondToken.symbol,
           token.symbol,
-          "ctUsdt",
           coinObjects,
           (amount || 0) * 10 ** consts.coins[token.symbol].decimals
         );
@@ -131,80 +138,76 @@ const TokenWrapPortal: React.FC = (props) => {
     ).finally(() => setIsSubmitLoading(false));
   };
 
-  const depositSlpComponent = (
+  const wrapTokenComponent = (
     <>
       <TokenInput
-        token={TOKENS.filter((x) => x.symbol === "usdt")[0]}
-        titlePrefix={"Wrap"}
+        token={token}
+        titlePrefix={token.symbol === "usdt" ? "Wrap" : "Unwrap"}
         amount={amount}
         onChange={setAmount}
         onChangeToken={setToken}
         keepIconPlaceholder={false}
         tokenList={TOKENS.filter(
-          (x) => x.symbol === "usdt" || x.symbol === "ct_usdt"
+          (x) => x.symbol === "usdt" || x.symbol === "ctUsdt"
         )}
-        tokenEditable={mode === "buy"}
+        tokenEditable={true}
         showBalance={true}
         balance={
           accountData.balance.length
-            ? mode === "buy"
-              ? accountData.balance.filter((e) => e.symbol === token.symbol)[0]
-                  ?.balance || 0
-              : accountData.balance.filter((e) => e.symbol === "usdt")[0]
-                  ?.balance || 0
+            ? accountData.balance.filter((e) => e.symbol === token.symbol)[0]
+                ?.balance || 0
             : 0
         }
         showMax={true}
         onMax={() => {
           setAmount(
-            accountData.balance.filter((e) => e.symbol === "usdt")[0].balance
+            accountData.balance.filter((e) => e.symbol === token.symbol)[0]
+              .balance
           );
         }}
       />
       <TokenInput
-        token={TOKENS.filter((x) => x.symbol === "ct_usdt")[0]}
+        token={secondToken}
         titlePrefix={""}
         isShowColon={false}
         amount={amount}
         onChange={setAmount}
-        onChangeToken={setToken}
+        onChangeToken={setSecondToken}
         keepIconPlaceholder={false}
         tokenList={TOKENS.filter(
-          (x) => x.symbol === "ct_usdt" || x.symbol === "usdt"
+          (x) => x.symbol === "ctUsdt" || x.symbol === "usdt"
         )}
         tokenEditable={false}
         showBalance={true}
         balance={
           accountData.balance.length
-            ? mode === "buy"
-              ? accountData.balance.filter((e) => e.symbol === token.symbol)[0]
-                  ?.balance || 0
-              : accountData.balance.filter((e) => e.symbol === "ct_usdt")[0]
-                  ?.balance || 0
+            ? accountData.balance.filter(
+                (e) => e.symbol === secondToken.symbol
+              )[0]?.balance || 0
             : 0
         }
         showMax={false}
       />
-      {
+      {token.symbol === "usdt" ? (
         <Button onClick={wrapToken} className="app-loader-button bg-primary">
           Wrap
         </Button>
-      }
-      {/* {
-        <Button
-          onClick={withdrawSlpFromPrizePool}
-          className="app-loader-button bg-primary"
-        >
+      ) : (
+        <Button onClick={unwrapToken} className="app-loader-button bg-primary">
           Unwrap
         </Button>
-      } */}
+      )}
     </>
   );
 
-  // kiosk management screen.
   return (
     <div className={`section-container py-5 sm:py-10 sm:px-14 px-5 relative`}>
-      <div>{depositSlpComponent}</div>
+      <h2>
+        {" "}
+        Nu is the bridged token wrapping portal. You can wrap and unwrap your
+        bridged token here.{" "}
+      </h2>
+      <div>{wrapTokenComponent}</div>
     </div>
   );
 };

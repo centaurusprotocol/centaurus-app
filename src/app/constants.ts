@@ -44,7 +44,7 @@ export const TOKENS = [
   },
   {
     name: "Centaurus Wrapped USDT",
-    symbol: "ct_usdt",
+    symbol: "ctUsdt",
     description: "Centaurus Wrapped USDT coin",
     icon: require("../assets/tokens/usdt.svg").default,
     symbolDisplay: "ctUSDT",
