@@ -1,1 +1,1 @@
-# sudo-ts-sdk
+# centaurus-ts-sdk

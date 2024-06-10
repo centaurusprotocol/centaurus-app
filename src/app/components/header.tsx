@@ -44,7 +44,7 @@ const Header: React.FC = () => {
       </div>
       <div>
         <a
-          href="https://x.com/sudofinance"
+          href="https://x.com/centaurusfinance"
           target="_blank"
           rel="noopener noreferrer"
           style={{ padding: "5px" }}
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
       </div>
       <div>
         <a
-          href="https://t.me/sudofi"
+          href="https://t.me/centaurusfi"
           target="_blank"
           rel="noopener noreferrer"
           style={{ padding: "5px" }}
@@ -147,7 +147,7 @@ const Header: React.FC = () => {
           {/* <NavLink to="/app/beta" className={({isActive}) => isActive? "app-header-page-selected": ""}>Beta+</NavLink> */}
           {/* <NavLink to="/app/event" className={({isActive}) => isActive? "app-header-page-selected": ""}>Event</NavLink> */}
           {/* <a
-            href="https://sudo.finance"
+            href="https://centaurus.finance"
             className="!hidden lg:!block"
             target="_blank"
             rel="noreferrer"
@@ -163,7 +163,7 @@ const Header: React.FC = () => {
             Stats
           </a>
           <a
-            href="https://sudos-organization.gitbook.io/sudo-fi/trade-on-sudo/start-trading"
+            href="https://centauruss-organization.gitbook.io/centaurus-fi/trade-on-centaurus/start-trading"
             target="_blank"
             rel="noreferrer"
             className="!hidden lg:!block"

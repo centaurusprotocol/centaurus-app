@@ -67,7 +67,7 @@ export const useAccountData = (
       return;
     }
 
-    const url = `https://api.sudofinance.xyz/verifyWalletStatus`;
+    const url = `https://api.centaurusfinance.xyz/verifyWalletStatus`;
 
     const res = await fetch(url, {
       method: "POST",
